@@ -1153,7 +1153,7 @@ Button(top_btn_frame, text=" SELL", command=store.sell_product, **btn_style, wid
 Button(top_btn_frame, text="RETURN", command=store.open_return_page, **btn_style, width=10).pack(side=LEFT, padx=4)
 Button(top_btn_frame, text="SALES", command=store.show_sales, **btn_style, width=10).pack(side=LEFT, padx=4)
 Button(top_btn_frame, text="TRANSACTIONS", command=store.show_transactions, **btn_style, width=14).pack(side=LEFT, padx=4)
-Button(top_btn_frame, text="RETURNS", command=store.show_returns, **btn_style, width=10).pack(side=LEFT, padx=4)
+Button(top_btn_frame, text="VIEW RETURNS", command=store.show_returns, **btn_style, width=10).pack(side=LEFT, padx=4)
 Button(top_btn_frame, text="LOW STOCK", command=store.show_low_stock_window, **btn_style, width=12).pack(side=LEFT, padx=4)
 
 # ========== NEW: SEARCH AND SORTING CONTROLS ==========
